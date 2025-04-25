@@ -5,9 +5,11 @@
 }
 
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin: 90px;
+
   padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h1,
@@ -92,4 +94,35 @@ p {
 }
 .projects {
   padding: 10px;
+}
+@media (max-width: 576px) {
+  body {
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  .navigation-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .email-link {
+    font-size: 14px;
+  }
 }
