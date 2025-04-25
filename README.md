@@ -41,4 +41,4 @@ To view the project locally:
 
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone git@github.com:nboyce9/portofolio-SCR-week3.git
